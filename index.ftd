@@ -1,0 +1,148 @@
+-- import: package/navheader
+-- import: package/main
+-- import: package/content
+-- import: package/contactinfo
+-- import: package/leftsidebar
+-- import: package/label
+-- import: package/work
+-- import: package/me
+-- import: package/navfooter
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------You can also change the background color-----------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- ftd.row:
+background.solid: #1E1E1E
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change all the urls with your actuall url's------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- leftsidebar.panel:
+link1: https://www.discord.com/
+link2: https://www.linkedin.com/
+link3: https://www.github.com/
+
+-- ftd.column:
+background.solid: #282C33
+width: fill-container
+height: hug-content
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Name with your actual Name-----------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-------Change the logo and add your own logo, while changing remember to change the path-------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- navheader.navbar: Elias
+logo: $assets.files.images.logo.svg
+homelink: <homepage_link>
+aboutlink: <aboutpage_link>
+contactmelink: <contact_link>
+worklink: <work_link>
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Title with your Title----------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the link with your connet meeting link----------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the image with your image-----------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the label with your actual Label-----------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Body with your Content----------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- main.body: Elias is a Web Designer and Front-End Developer
+link: https://www.candely.com/
+image: $assets.files.images.Image2.png
+label: Currently working on portfolio
+
+Passionate about Communication, and C++,Python Programming Language with a broad knowledge in computer science principles. Always interested in expanding my knowledge and learning something new everyday. I am always open to hearing about new opportunities.
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Quote with your Quote-----------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- label.quote:
+quote: With great power comes great electricity bill
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------You can add your project links and title here----------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- content.project: 
+allproject: www.allproject.com
+label1: HTML SCSS Python Flask
+heading1: ChertNodes
+subheading1: Minecraft servers hosting
+label2: React Express Discord.js Node.js HTML SCSS Python Flask
+heading2: ProtectX
+subheading2: Discord anti-crash bot
+label3: CSS Express Node.js
+heading3: Kahoot Answers Viewer
+subheading3: Get answers to your kahoot quiz
+project1img1: $assets.files.images.project1.jpg
+project2img2: $assets.files.images.project2.svg
+project3img3: $assets.files.images.project3.svg
+project1: www.project1.com
+project2: www.project2.com
+project3: www.project3.com
+live1: www.live1.com
+cached: www.cached.com
+live2: www.live2.com
+live3: www.live3.com
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;---------------------------Mention about your skills and languages you have learned------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- work.skills:
+languages: TypeScript Lua Python Javascript
+databases: SQLite PostgreSQL Mongo
+other: HTML CSS EJS SCSS REST Jinja
+tools: VSCode Neovim Linux Figma XFCE Arch Git Font Awesome
+frameworks: React Vue Disnake Discord.js Flask Express.js
+
+-- me.aboutme: Hello, i’m Elias!
+link: www.readmore.com
+image: $assets.files.images.Image.png
+
+I’m a self-taught front-end developer based in Kyiv, Ukraine. I can develop responsive websites from scratch and raise them into modern user-friendly web experiences. 
+
+Transforming my creativity and knowledge into a websites has been my passion for over a year. I have been helping various clients to establish their presence online. I always strive to learn about the newest technologies and frameworks.
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Contact Detail's with your contact details--------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- contactinfo.contact:
+discordlink: https://www.discord.com/
+githublink: https://www.github.com/
+linkedinlink: https://www.linkedin.com/
+
+I’m interested in freelance opportunities. However, if you have other request or question, don’t hesitate to contact me.
+
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Name with your actual Name-----------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+;;----------------------------Change the Logo with your Logo-------------------------------------------------------
+;;-----------------------------------------------------------------------------------------------------------------
+
+-- navfooter.footer: Elias
+logo: $assets.files.images.logo.svg
+discordlink: https://www.discord.com/
+githublink: https://www.github.com/
+linkedinlink: https://www.linkedin.com/
+
+Web designer and front-end developer
+
+-- end: ftd.column
+
+-- end: ftd.row
